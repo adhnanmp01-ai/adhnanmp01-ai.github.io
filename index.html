@@ -6,26 +6,46 @@
     <title>INFINOMEX | General Trading</title>
     <meta name="description" content="INFINOMEX is a global general trading company dealing in a wide range of products across international markets.">
     <style>
-  :root {
-    --brand-green: #3f6f58;
-    --brand-bg: #f5f7f6;
-    --brand-text: #1f2a26;
-    --brand-accent: #1a936f;
-  }
-
   body {
-    background-color: var(--brand-bg);
-    color: var(--brand-text);
-    font-family: Arial, sans-serif;
-    margin: 0;
-  }
+  background-color: #f5f7f6;
+  color: #1f2a26;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
 
-  .site-header {
-    background-color: var(--brand-green);
-    color: #ffffff;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
+/* header bar */
+.site-header {
+  background-color: #3f6f58;
+  color: #ffffff;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* logo image */
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+/* menu links */
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.main-nav a:hover {
+  color: #1a936f;
+}
+
+/* headings */
+h1, h2, h3 {
+  color: #3f6f58;
+}
+
   }
 
   .logo {
@@ -43,12 +63,20 @@
 </style>
 
         body {
-            <header class="site-header">
-  <a href="index-1.html" class="brand">
-    <img src="infinomex_logo_hd.jpg" alt="Infinomex General Trading" class="logo">
-  </a>
-  <!-- later you can add menu links here -->
-</header>
+    <body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="infinomex_logo_hd.jpg" alt="Infinomex General Trading" class="logo">
+    </div>
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#whyus">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <!-- keep the rest of your existing content below -->
 
         }
 
